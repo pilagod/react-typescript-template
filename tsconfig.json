@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true, // https://github.com/vuejs/vue-class-component
+        "jsx": "react",
+        "module": "esnext", // https://github.com/Microsoft/TypeScript/issues/16675
+        "moduleResolution": "node",
+        "strict": true,
+        "target": "es5", // https://stackoverflow.com/questions/43048455/ie11-throwing-script1014-invalid-character-where-all-other-browsers-work
+        "lib": [
+            "es2015",
+            "dom"
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

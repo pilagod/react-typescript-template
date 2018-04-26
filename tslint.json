@@ -1,0 +1,7 @@
+{
+    // https://github.com/Microsoft/vscode-tslint/issues/59
+    "extends": [
+        "tslint-config-standard",
+        "tslint-react"
+    ]
+}
